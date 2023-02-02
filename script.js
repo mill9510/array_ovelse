@@ -4,5 +4,5 @@ playList.forEach(visEnAfGangen);
 
 function visEnAfGangen(playList) {
   console.log(playList + " er god");
-  document.querySelector("#playList").innerHTML += `<p>${playList}</p>`;
+  document.querySelector("#playList").innerHTML += `<li>${playList}</li>`;
 }
